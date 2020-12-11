@@ -14,7 +14,7 @@ int main()
 
 	B = (x - 5) / (2 * y + 13) + (pow(x, 3) - v) / ((6 * x)/(11*w)) - ((w - v) / z);
 
-	C = cos(Pi / (180 * 6) - Pi * alpha / 2) * sin(Pi / (3 * 180) + 2 * alpha);
+	C = sin(Pi / (180 * 6) - Pi * alpha / 2) * sin(Pi / (3 * 180) + 2 * alpha);
 
 	cout << "A" << A;
 	cout << "B" << B;
