@@ -1,0 +1,23 @@
+#include <iostream>
+#include "math.h"
+
+using namespace std;
+int main()
+{
+	int w, z;
+	double x, y, v,A,B,C,alpha;
+	double const Pi = 3.14;
+	
+	cout << "enter w,z,x,y,v,alpha:";
+	cin >> w >> z >> x >> y >> v>> alpha;
+	A = (pow(10, 3) * w * pow(z, 2)) / (v - 12) + abs(11 * y - 5) + pow(y, 2) * pow(x, 3) / w ;
+
+	B = (x - 5) / (2 * y + 13) + (pow(x, 3) - v) / ((6 * x)/(11*w)) - ((w - v) / z);
+
+	C = cos(Pi / (180 * 6) - Pi * alpha / 2) * sin(Pi / (3 * 180) + 2 * alpha);
+
+	cout << "A" << A;
+	cout << "B" << B;
+	cout << "C" << C;
+}
+
